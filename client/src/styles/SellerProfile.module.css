@@ -164,6 +164,8 @@
     .box label{
         width: 100%;
         font-size: 1rem;
+        text-align: left;
+        margin-left: 10%;
     }
     .box input{
         font-size: 1.1rem;
