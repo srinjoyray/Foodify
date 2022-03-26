@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import styles from '../styles/Business.module.css'
+import styles from '../styles/Link.module.css'
 
-const Business = () => {
+const BusinessLink = () => {
     return (
         <div className={styles.business}>
             <div className={styles.header}>
@@ -20,5 +20,5 @@ const Business = () => {
     )
 }
 
-export default Business
+export default BusinessLink
 

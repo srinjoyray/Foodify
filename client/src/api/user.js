@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({baseURL:`${process.env.REACT_APP_SERVER_URL}user`});
+const API = axios.create({baseURL:`${process.env.REACT_APP_SERVER_URL}api/user`});
 
 API.interceptors.request.use((req)=>{
     if(localStorage.getItem('user')){

@@ -4,6 +4,7 @@ import styles from '../../styles/Seller.module.css'
 import Footer from '../../components/Footer';
 // import BurgerPic from '../../assets/Burger.jpg';
 import BurgerPic from '../../assets/Burger2.png';
+import UserLink from '../../components/UserLink';
 const Seller = ({seller,setSeller}) => {
     return (
         <div className={styles.seller}>
@@ -29,7 +30,7 @@ const Seller = ({seller,setSeller}) => {
                 </div>
 
             </div>
-       
+            <UserLink />
             <Footer />
         
         </div>

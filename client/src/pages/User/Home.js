@@ -7,7 +7,7 @@ import styles from '../../styles/Home.module.css'
 import HomePic from '../../assets/Home.svg';
 import RestaurantItem from '../../components/RestaurantItem';
 import Footer from '../../components/Footer';
-import Business from '../../components/Business';
+import BusinessLink from '../../components/BusinessLink';
 // import { restaurants } from '../constants/restaurants';
 
 import { getAllRestaurants } from '../../actions/seller';
@@ -68,7 +68,7 @@ export default function Home({userId,setUserId}) {
       </div>
       
 
-      <Business/>
+      <BusinessLink/>
       <Footer/>
     </div>
   )
