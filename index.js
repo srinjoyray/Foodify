@@ -18,9 +18,9 @@ app.use('/public' , express.static('public'));
 //     res.json("Hello World");
 // })
 
-app.use('/seller', sellerRoutes);
-app.use('/user',userRoutes);
-app.use('/order',orderRoutes);
+app.use('/api/seller', sellerRoutes);
+app.use('/api/user',userRoutes);
+app.use('/api/order',orderRoutes);
 
 const PORT = process.env.PORT || 5000;
 
