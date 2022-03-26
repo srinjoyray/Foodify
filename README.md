@@ -11,8 +11,8 @@ The feautres can be broadly divided into two parts :
 * Savour their food once it gets delivered
 
 ## Sellers
-* They can list their restaurant on the platform
-* They can edit and customize the food items
-* They can access a order dashboard where can they can see pending orders
-* They can change the status of a order once it is completed
+* List their restaurant on the platform
+* Edit and customize the food items
+* Access a order dashboard where can they can see pending orders
+* Change the status of a order once it is completed
  
