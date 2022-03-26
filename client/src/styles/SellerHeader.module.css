@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    padding: 0 20px;
+    background-color: var(--light-background);
+    color : var(--light-text);
+    height:75px;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    font-size: 30px;
+    font-weight: 800;
+}
+.items{
+    margin: 0 20px;
+    display: flex;
+}
+.button{
+    cursor: pointer;
+    background-color: var(--button);
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin: 0 1rem;
+    font-size: 0.8rem;
+    width: min(25vw,100px);
+    border: none;
+    color: var(--button-text); 
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 800px) {
+    .brand{
+        font-size: 26px;
+    }
+    .button{
+        margin: 0;
+    }
+}

@@ -1,0 +1,12 @@
+.footer{
+    background-color: var(--light-background);
+    color: var(--light-text);
+    min-height: 10vh;
+}
+.footer p{
+    margin: 0 auto;
+    width: min(80vw,500px);
+    padding: 1rem 2rem;
+    font-size: 0.9rem;
+    text-align: center;
+}

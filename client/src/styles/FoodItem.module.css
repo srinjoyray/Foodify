@@ -1,0 +1,110 @@
+.item{
+    width: min(350px,80vw);
+    display: flex;
+    margin: 10px 15px;
+    justify-content: space-between;
+    background-color: var(--light-background);
+    border-radius: 5px;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 2px;
+    margin-top: 8px;
+    width: 50%;
+}
+.badge{
+    display: flex;
+    margin-bottom: 10px;
+}
+.speciality{
+    color:gold;
+    display: flex;
+    align-items: center;
+    
+    padding: 1px 5px;
+    margin-left: 2px;
+}
+.starIcon{
+    font-size: 20px;
+}
+.vegBadge{
+    margin-top: 2px;
+    font-size: 1.5rem;
+    color:green;
+}
+.nonVegBadge{
+    margin-top: 2px;
+    font-size: 1.5rem;
+    color:red;
+}
+.text{
+    /* height:50px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.name{
+    display: flex;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.price{
+    font-size: 1rem;
+    color: var(--dark-text);
+}
+.addButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 4px;
+    margin:auto;
+    width:100px;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: var(--button);
+    cursor: pointer;
+}
+.addButton:hover{
+    opacity: 0.8;
+}
+.addButtonIcon{
+    font-size: 12px;
+}
+
+
+
+/* Image */
+
+.imageDiv{
+    margin:0.2rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.image{
+    border-radius: 5px;
+    width: 100%;
+    height: 10rem;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .name{
+        font-size: 1rem;
+    }   
+    .price{
+        font-size: 0.9rem;
+    }
+    .image{
+        height: 9rem;
+    }
+    .addButtonIcon{
+        font-size: 0.8rem;
+    }
+}

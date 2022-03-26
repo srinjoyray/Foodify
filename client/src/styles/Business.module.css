@@ -1,0 +1,35 @@
+.business{
+    background-color: var(--light-background);
+    padding: 2rem;
+    /* margin-bottom: 2rem; */
+    
+}
+.header{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.description{
+    font-size: 0.9rem;
+    margin: 1rem 0;
+    text-align: center;
+    color: var(--dark-text);
+}
+.button{
+    border: none;
+    background-color: var(--button);
+    color : var(--button-text);
+    padding: 10px 30px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 500px) {
+   
+}

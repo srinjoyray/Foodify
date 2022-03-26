@@ -1,0 +1,20 @@
+.orders{
+    margin: 3rem 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    
+    
+}
+
+@media only screen and (max-width: 1050px) {
+    .orders{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .orders{
+        grid-template-columns: 1fr;
+    }
+}

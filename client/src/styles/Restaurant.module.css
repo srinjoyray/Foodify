@@ -1,0 +1,58 @@
+.restaurant{
+    background-color:  var(--dark-background);
+    color: var(--light-text);
+}
+.page{
+    min-height: 80vh;
+}
+.searchItem{
+    margin: auto;
+    padding-top: 40px;
+    display: flex;
+    width: min(400px , 80vw);
+    align-items: center;
+    justify-content: center;
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px ;
+    background-color: white;
+}
+.searchInput{
+    border:none !important;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.searchIcon{
+    color: black;
+}
+
+
+/* Restaurants */
+.body{
+    margin: 1rem 0;
+}
+
+.restaurantsGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0 5vw;
+}
+  
+@media only screen and (max-width: 1250px) {
+.restaurantsGrid{
+    grid-template-columns: 1fr 1fr;
+}
+}
+@media only screen and (max-width: 750px) {
+.restaurantsGrid{
+    grid-template-columns: 1fr;
+    margin: 0 2vw;
+}
+}

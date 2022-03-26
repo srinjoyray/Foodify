@@ -1,0 +1,33 @@
+.card{
+    margin: 20px 10px;
+    background-color: var(--light-background) !important;
+    color: var(--light-text) !important;
+
+}
+.content{
+    padding: 12px 10px;
+}
+.title{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.description{
+    display: flex;
+    justify-content: space-between;
+    color: var(--dark-text);
+    margin-top: 5px;
+}
+.buttonDiv{
+    margin-bottom: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: var(--button);
+    color:var(--button-text);
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,92 @@
+.auth{
+    background-color: var(--dark-background);
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 15vh 0;
+}
+.form{
+    width: min(600px,80vw);
+    background-color: var(--light-background);
+    border-radius: 5px;
+    box-shadow: 5px 5px 100px #9daeff;
+}
+.form h2{
+    margin: 0.7rem auto;
+    text-align: center;
+    color: var(--blue-text);
+    font-size: 1.5rem;
+}
+.switch{
+    margin: 10px auto;
+    text-align: center;
+    color: var(--blue-text);
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+.switchButton{
+    cursor: pointer;
+    color: var(--button);
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+}
+.form label {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: var(--blue-text);
+    font-weight: 700;
+}
+.form input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+}
+
+
+.error{
+    color: red;
+    font-size: 18px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    margin: 0.8rem;
+    padding: 10px 30px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: var(--button);
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 800px) {
+    .form h2{
+        font-size: 1.3rem;
+    }   
+    .form label{
+        font-size: 1.1rem;
+    }
+    .form input{
+        font-size: 1.1rem;
+    }
+    .switch{
+        font-size: 0.9rem;
+    }
+}

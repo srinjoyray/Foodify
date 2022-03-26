@@ -1,0 +1,46 @@
+.item{
+    background-color: var(--light-background);
+    display: flex;
+    width: 100%;
+    margin: 10px 20px;
+}
+.imageDiv{
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+.image{
+    width: min(200px,100%);
+    height: 100px;
+    object-fit: cover;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+.text{
+    margin: 5px;
+}
+.button{
+    margin: 0.6rem ;
+    font-size: 16px;
+    cursor: pointer;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.totalPrice{
+    display: flex;
+    align-items: flex-end;
+}
+
+@media only screen and (max-width: 800px) {
+    .description{
+        margin-left: 0.6rem;
+    }
+    
+}

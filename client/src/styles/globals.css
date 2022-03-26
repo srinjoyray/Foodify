@@ -1,0 +1,40 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+*{
+  --light-text: #F9F8F8;  
+  --dark-text: #52beb4;
+  --blue-text : #c9a8da;
+  --light-background: #010c43;
+  --dark-background: #000935;
+  --button : #8888f4;
+  --button-text : #000000;
+  --gradient: linear-gradient(97deg, rgba(249,35,40,1) 0%, rgba(143,230,47,1) 52%, rgba(255,33,0,1) 100%);
+}
+
+/* *{
+  --light-text: #52beb4;  
+  --dark-text: #52beb4;
+  --blue-text : #c9a8da;
+  --light-background: #010c43;
+  
+  --dark-background: #F9F8F8;
+  --button : #8888f4;
+  --button-text : #000000;
+  --gradient: linear-gradient(97deg, rgba(249,35,40,1) 0%, rgba(143,230,47,1) 52%, rgba(255,33,0,1) 100%);
+} */

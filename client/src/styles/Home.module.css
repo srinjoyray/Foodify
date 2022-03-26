@@ -1,0 +1,155 @@
+.home{
+  background-color:  var(--dark-background);
+  color: var(--light-text);
+}
+
+.main{
+  display: flex;
+  justify-content: space-evenly;
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+  width: 40%;
+}
+
+.textHeading{
+  font-size :2rem;
+
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+}
+.textHeading:before{
+  content: 'Hungry?';
+  animation-name: head;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+.textDescription{
+  text-align: center;
+  font-size: 1.5rem;
+}
+@keyframes head {
+  0% {content: "Hungry?" }
+  25% {content: "Unexpected guests?"}
+  50% {content: "Cooking gone wrong?"}
+  75% {content: "Game night?"}
+  
+}
+
+
+.button{
+  background-color: var(--button);
+  color:var(--button-text);
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: none;
+  width:150px;
+  cursor:pointer;
+  font-size: 16px;
+}
+.button:hover{
+  opacity: 0.8;
+}
+
+.image{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.image>img{
+  width: min(600px,50vw);
+}
+
+@media only screen and (max-width: 800px) {
+  .main{
+    flex-direction: column-reverse;
+    margin-bottom: 1.5rem;
+  }
+  
+  .image>img{
+    width: 80vw;
+  }
+  .textDescription{
+    text-align: center;
+    font-size: 1rem;
+  }
+  .text{
+    align-items: center;
+    width: 80%;
+    margin: auto;
+  }
+  .textHeading{
+    font-size: 1.5rem;
+  }
+}
+
+
+
+
+/* Restaurants */
+.restaurants{
+  padding-bottom: 5vh;  
+}
+.restaurantHeading{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.restaurantsGrid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  margin: 0 5vw;
+}
+
+
+.restaurantLink{
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.restaurantButton{
+  padding: 50px;
+  width: 200px;
+  background-color: var(--button);
+  color:var(--button-text);
+  border-radius: 5px;
+  padding: 10px 10px;
+  border: none;
+  cursor:pointer;
+  font-size: 16px;
+}
+.restaurantButton:hover{
+  opacity: 0.8;
+}
+.buttonIcon{
+  margin: auto 0.2rem;
+}
+
+
+@media only screen and (max-width: 1250px) {
+  .restaurantsGrid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .restaurantsGrid{
+    grid-template-columns: 1fr;
+    margin: 0 2vw;
+  }
+  .restaurants{
+    margin-top: 3rem;
+  }
+  .restaurantHeading{
+    margin-bottom: 0;
+  }
+  .restaurantLink{
+    margin-top:0.5rem;
+    margin-bottom: 0;
+  }
+}

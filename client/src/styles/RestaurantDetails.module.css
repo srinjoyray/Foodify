@@ -1,0 +1,109 @@
+.restaurantDetails{
+    background-color:  var(--dark-background);
+    color: var(--light-text);
+    /* min-height: 100vh; */
+}
+.body{
+    background-color:  var(--dark-background);
+    min-height: 91vh;
+}
+.loader{
+    display: flex;
+}
+.description{
+    display: grid;
+    margin-left : min(40px , 5vw);
+    margin-right: min(40px , 5vw);
+    grid-template-columns: 2fr 1fr;
+    margin-bottom: 20px;
+}
+.textDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1rem;
+}
+.cuisine{
+    color:var(--dark-text);
+}
+.cost{
+    color: var(--dark-text);
+}
+.thumbnail{
+    width: min(50vw,400px);
+    margin: 20px auto;
+    border-radius: 5px;
+}
+@media only screen and (max-width: 600px) {
+    .description{
+        grid-template-columns: 1fr; 
+    }
+    .thumbnail{
+        width: min(90%,400px);
+        height: 300px;
+    }
+    .textDescription{
+        margin-left: 1.5rem;
+    }
+}
+
+
+/* Items */
+
+.searchItem{
+    display: flex;
+    width: min(400px , 80vw);
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.searchBox{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: white;
+}
+.searchInput{
+    border:none !important;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+.searchIcon{
+    color: black;
+}
+
+.itemGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    margin: 0 5vw;
+    margin-bottom: 2rem;
+}
+
+.button{
+    background-color: var(--button);
+    color: var(--button-text);
+    margin: 2rem auto;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+    display: flex;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.buttonIcon{
+    margin: auto 0.2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .itemGrid{
+        grid-template-columns: 1fr;   
+    }
+}

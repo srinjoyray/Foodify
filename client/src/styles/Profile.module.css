@@ -1,0 +1,114 @@
+.profile{
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile h2{
+    text-align: center;
+}
+.details{
+    background-color: var(--light-background);
+    color: var(--light-text);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    padding-bottom: 0.5rem;
+    width: min(80vw,600px);
+    border-radius: 5px;
+}
+.row{
+    margin: 0.5rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.label{
+    width: 40%;
+    text-align: left;
+}
+.value{
+    width: 60%;
+    text-align: right;
+}
+.button{
+    margin: 1rem auto;
+    background-color: var(--button);
+    color: var(--button-text);
+    border:none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.modal{
+    position: absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--light-background);
+    color: var(--light-text);
+    border-radius: 5px;
+    width: 300px;
+}
+.form{
+    margin: 0.7rem auto;
+    text-align: center;
+    color: var(--blue-text);
+    font-size: 1.5rem;
+}
+.field{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    margin: auto;
+    padding: 0.5rem;
+}
+.form label {
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: var(--blue-text);
+    font-weight: 700;
+    text-align: left;
+}
+.form input {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+.submit{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.2rem 0.5rem;
+}
+.orderHeader{
+    margin-top: 2rem;
+}
+.orders{
+    margin: 0 5vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1050px) {
+    .orders{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .orders{
+        grid-template-columns: 1fr;
+    }
+}

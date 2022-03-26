@@ -1,0 +1,11 @@
+.dashboard{
+    background-color: var(--dark-background);
+    color: var(--light-text);
+    min-height: 100vh;
+}
+.body{
+    min-height: 85vh;
+}
+.tab{
+    color:var(--dark-text) !important;
+}

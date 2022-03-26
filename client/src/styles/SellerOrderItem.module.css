@@ -1,0 +1,75 @@
+.order{
+    background-color: var(--light-background);
+    color: var(--light-text);
+    margin: 1rem;
+    margin-top: 0;
+    min-width: 300px;
+    border-radius: 5px;
+}
+.restaurantRow{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid var(--dark-text);
+}
+.restaurantDetails{
+    display: flex;
+    flex-direction: row;
+}
+.thumbnail{
+    width:50px;
+    height: 50px;
+}
+.name{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+.price{
+    display: flex;
+    align-items: center;
+}
+.detailsRow{
+    padding: 0.5rem 1rem;
+    padding-bottom: 0;
+    border-bottom: 1px solid var(--dark-text);
+}
+.label{
+    margin: 0.2rem 0rem;
+    color: var(--light-text);
+    font-size: 0.9rem;
+}
+.items{
+    margin-bottom: 1rem;
+    color: var(--dark-text);
+    font-size: 0.9rem;
+}
+.time{
+    margin-bottom: 1rem;
+    color: var(--dark-text);
+    font-size: 0.9rem;
+
+}
+.statusRow{
+    padding: 0.4rem 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.button{
+    border :none ;
+    border-radius: 5px;
+    background-color: var(--button);
+    color : var(--button-text);
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+.status{
+    margin: auto;
+    font-size: 0.9rem;
+    color: var(--dark-text);
+}
